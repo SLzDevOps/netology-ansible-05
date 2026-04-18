@@ -1,0 +1,14 @@
+---
+- name: Converge
+  hosts: all
+  gather_facts: yes
+  become: yes
+  vars:
+    vector_version: "0.21.1"
+    vector_data_dir: "/var/lib/vector"
+    all_clickhouse_db: "default"
+    all_clickhouse_url: "http://localhost:8123"
+    all_clickhouse_table: "vector_logs"
+    vector_manage_service: false
+  roles:
+    - role: mspitsyn.vector

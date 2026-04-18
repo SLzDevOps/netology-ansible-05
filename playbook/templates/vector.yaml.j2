@@ -1,0 +1,21 @@
+sources:
+  system_logs:
+    type: file
+    include:
+      - /var/log/*.log
+    read_from: beginning
+
+transforms:
+  parse_logs:
+    type: remap
+    inputs: ["system_logs"]
+    source: |
+      . = parse_json!(.message) ?? .
+      .timestamp = now()
+
+sinks:
+  console:
+    type: console
+    inputs: ["parse_logs"]
+    encoding:
+      codec: json
