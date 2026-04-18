@@ -1,12 +1,10 @@
-# Домашнее задание к занятию 4 «Работа с roles»
+# Домашнее задание к занятию 5 «Тестирование roles»
 
-## Ссылка на Д3 - https://github.com/netology-code/mnt-homeworks/tree/MNT-video/08-ansible-04-role
+## Ссылка на Д3 - https://github.com/netology-code/mnt-homeworks/tree/MNT-video/08-ansible-05-testing
 
-### Репозиторий playbook - https://github.com/SLzDevOps/netology-ansible-04
+### Репозиторий - https://github.com/SLzDevOps/netology-ansible-04
 
-### Репозиторий lighthouse - https://github.com/SLzDevOps/lighthouse-role
 
-### Репозиторий vector - https://github.com/SLzDevOps/vector-role
 
 
 ---
