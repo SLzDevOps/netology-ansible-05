@@ -2,7 +2,8 @@
 
 ## Ссылка на Д3 - https://github.com/netology-code/mnt-homeworks/tree/MNT-video/08-ansible-05-testing
 
-### Репозиторий - https://github.com/SLzDevOps/netology-ansible-04
+### Репозиторий - https://github.com/SLzDevOps/netology-ansible-05
+
 
 
 
