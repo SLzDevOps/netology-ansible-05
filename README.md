@@ -4,7 +4,7 @@
 
 ### Репозиторий - https://github.com/SLzDevOps/netology-ansible-05
 
-
+### Скриншоты - https://github.com/SLzDevOps/netology-ansible-05/tree/master/screenshots
 
 
 
